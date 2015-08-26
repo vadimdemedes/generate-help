@@ -4,6 +4,7 @@
  * Dependencies
  */
 
+var objectLength = require('object-length');
 var dasherize = require('dashify');
 var indent = require('indent-string');
 var format = require('util').format;
@@ -44,7 +45,7 @@ function generateHelp (params) {
     output += EOL;
   }
 
-  if (is.object(params.options)) {
+  if (is.object(params.options) && objectLength(params.options) > 0) {
     var options = buildOptions(params.options);
 
     output += EOL;
@@ -55,7 +56,7 @@ function generateHelp (params) {
     output += EOL;
   }
 
-  if (is.array(params.commands)) {
+  if (is.array(params.commands) && params.commands.length > 0) {
     var commands = buildCommands(params.commands);
 
     output += EOL;
