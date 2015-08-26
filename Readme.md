@@ -43,6 +43,8 @@ let output = help({
 process.stdout.write(output);
 ```
 
+![](https://github.com/vdemedes/generate-help/raw/master/media/screenshot.png)
+
 
 ### Tests
 
