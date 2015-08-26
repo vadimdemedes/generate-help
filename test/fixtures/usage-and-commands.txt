@@ -1,0 +1,8 @@
+
+  Usage: hello [options] <command>
+
+  Commands:
+
+    hi  Say hi
+    yo  Say yo
+

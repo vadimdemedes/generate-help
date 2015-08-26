@@ -1,0 +1,9 @@
+
+  Usage: hello [options]
+
+  Options:
+
+    -h, --help   Display help
+    -f, --force  Force something
+    --verbose    Be verbose
+

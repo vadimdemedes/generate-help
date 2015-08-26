@@ -1,0 +1,38 @@
+{
+  "name": "generate-help",
+  "version": "1.0.0",
+  "description": "Generate help output for CLI programs",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdemedes/generate-help.git"
+  },
+  "keywords": [
+    "help",
+    "cli"
+  ],
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemedes/generate-help/issues"
+  },
+  "homepage": "https://github.com/vdemedes/generate-help#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "make-lint": "^1.0.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "dashify": "^0.1.0",
+    "get-result": "^0.1.0",
+    "indent-string": "^2.1.0",
+    "is_js": "^0.7.4",
+    "text-table": "^0.2.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}

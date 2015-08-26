@@ -1,0 +1,14 @@
+
+  Usage: hello [options] <command>
+
+  Options:
+
+    -h, --help   Display help
+    -f, --force  Force something
+    --verbose    Be verbose
+
+  Commands:
+
+    hi  Say hi
+    yo  Say yo
+
