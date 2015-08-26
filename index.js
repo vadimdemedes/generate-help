@@ -117,7 +117,10 @@ function buildOptions (options) {
       name.unshift(alias);
     });
 
-    result.push([name.join(', '), props.desc]);
+    result.push([
+      name.join(', '),
+      props.desc || ''
+    ]);
   });
 
   return table(result);
@@ -132,7 +135,10 @@ function buildCommands (commands) {
   var result = [];
 
   commands.forEach(function (command) {
-    result.push([command.name, command.desc]);
+    result.push([
+      command.name,
+      command.desc || ''
+    ]);
   });
 
   return table(result);
